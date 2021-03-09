@@ -1,0 +1,340 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, sans-serif;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background-image:url("Big_foto/architect.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1px;   
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: whitesmoke;
+    box-shadow: 0px 2px 10px black;
+    letter-spacing: 4px;  
+    font-size: 15px;
+    position: fixed;
+    top:0;
+    
+}
+.logo{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+span:hover{
+    background-color: lightgray;
+}
+ul{
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    padding: 10px;
+}
+li{
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: #000;  
+}
+li:hover{
+    background-color: lightgray;
+}
+
+h1{
+    width:400px;
+    height: auto;
+    margin:0 auto;
+    text-align: center;
+    margin-top: 300px;
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+    font-size: 40px;
+}
+.BR{
+    background-color: gray;
+    padding: 15px;
+}
+.BR:hover{
+    color:black;
+}
+main{
+    widows: 100%;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.projects div{
+    width:280px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+}
+h3{
+    background-color: black;
+    color:white;
+    padding: 10px;
+    width: 180px;
+}
+h2{
+    margin: 30px;
+}
+.foto1{
+    background-image: url(Small_foto/summer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+.foto2{
+    background-image: url(Small_foto/brick.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+.foto3{
+    background-image: url(Small_foto/renovated.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+.foto4{
+    background-image: url(Small_foto/barn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+.foto5{
+    background-image: url(Small_foto/summer2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+.foto6{
+    background-image: url(Small_foto/brick2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+.foto7{
+    background-image: url(Small_foto/renovated2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+.foto8{
+    background-image: url(Small_foto/barn2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+hr{
+    width: 95%;
+    margin:20px auto;
+}
+p{
+    width: 95%;
+    height: auto;
+    margin: 20px auto;
+    text-align: justify;
+}
+.about div{
+    width:280px;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+.about div > div{
+    width: 280px;
+    height: 200px;
+    margin: 0;
+}
+.about div a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    background-color:#f1f1f1;
+    text-align: center;
+}
+.about div a:hover{
+    background-color: lightgray;
+}
+h4{
+    color:gray;
+    font-weight: 100;
+}
+.foto9{
+    background-image: url(Small_foto/profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+
+.foto10{
+    background-image: url(Small_foto/profile1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: top;
+}
+.foto11{
+    background-image: url(Small_foto/profile3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position:center;
+}
+.foto12{
+    background-image: url(Small_foto/profile4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position:center;
+}
+.about h2, h4{
+    margin:20px 5px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+}
+
+footer p{
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.foto1{
+    width: 250px;
+    height: 250px;
+    background-image: url(Small_foto/profile1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.layer{
+    width: 250px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.2 );
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
